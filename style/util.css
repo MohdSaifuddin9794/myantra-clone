@@ -1,0 +1,25 @@
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.item-center{
+   align-items: center;
+}
+.space-between{
+    justify-content: space-between;
+}
+.mx-2{
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.my-2{
+    margin: 1.2rem 0rem;
+    padding: 2.3rem;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

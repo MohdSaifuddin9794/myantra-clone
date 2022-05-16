@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+html, body{
+    position: relative;
+    width:100%;
+    height: 100%;
+    font-size: 10px;
+}
+header{
+    width: 100%;
+    position:sticky;
+    top: 0;
+    background: white;
+    box-shadow: rgba(58, 58, 58, 0.15) 1.95px 1.95px 2.6px;
+    /* height: 13%; */
+}
+.userAction{
+    display: flex;
+    margin: 1.5rem;
+    justify-content: center;
+}
+
+@media (max-width: 768px){
+    header{
+      /* background: red; */
+      height: 20rem;
+    }
+    nav{
+        flex-direction: column;
+        /* align-items: center; */
+        /* margin: 0.5rem auto; */
+    }
+    nav ul li{
+        padding: 0rem 0.5rem;
+        font-size: 1rem
+    }
+    nav .left, .right{
+        margin-top: 1.5rem;
+
+    }
+    .right{
+        flex-direction: column;
+       
+    }
+    .userAction{
+        display: flex;
+        margin: 1.5rem;
+        justify-content: center;
+    }
+    
+
+}
+@media (max-width: 320px){
+    header{
+      /* background: red; */
+      height: 35rem;
+    }
+    nav{
+        flex-direction: column;
+        /* align-items: center; */
+        /* margin: 0.5rem auto; */
+    }
+   .left{
+       flex-direction: column;
+       justify-content: center;
+       flex-wrap: wrap;
+       margin-top: 1rem;
+   }
+   nav ul{
+       display: flex;
+       flex-direction: column;
+       justify-content:center;
+       align-items: center;
+   }
+    nav ul li{
+        margin: 0.5rem 0.25rem;
+        padding: 0rem 0.25rem;
+        font-size: 1rem
+    }
+    nav .left, .right{
+        margin-top: 1.5rem;
+
+    }
+    .right{
+        flex-direction: column;
+       
+    }
+    .userAction{
+        display: flex;
+        margin: 1.5rem;
+        justify-content: center;
+    }
+    
+
+}
+nav{
+    /* width: 85%; */
+    padding: 2.5rem 1.2rem;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+.myntraLogo{
+    width: 4.5rem;
+    height: 3.5rem;
+    margin: 0rem 1.25rem;
+}
+ul li{
+    letter-spacing: 0.1rem;
+    list-style: none;
+    padding: 0rem 1.5rem;
+    font-weight: bolder;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    /* word-spacing: 1.5rem; */
+}
+
+.container{
+    max-width: 80vw;
+    margin: auto;
+}
+.section1{
+    background-color: rgb(236, 236, 236);
+    /* height: 200vh; */
+}
+.hero1{
+    width: 100%;
+    margin-top: 0.5rem;
+}
+.desktop-searchBar{
+
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    font: inherit;
+    overflow: visible;
+    display: inline-block;
+    float: left;
+    font-size: 14px;
+    height: 20px;
+    line-height: 24px;
+    width: 95%;
+    color: #696e79;
+    box-sizing: content-box;
+    padding: 8px 10px 10px;
+    margin: 0;
+    outline: 0;
+    border: 1px solid #f5f5f6;
+    border-radius: 0 4px 4px 0;
+    border-left: 0;
+    background: #f5f5f6;
+}
+/* .search{
+    width: 34vw;
+    padding: 0.7rem 1.7rem;
+    border: 0.05rem solid;
+    background: #f7f8fd;
+    border-radius: 0.5rem;
+}
+} */
+.section2{
+    /* flex-wrap: wrap; */
+    width: 100%;
+    text-align: center;
+}
+.unbelievableDeals{
+    width: 13vw;
+    margin: 0.6rem 0.4rem;
+}
+.section3{
+    width: 100%;
+    text-align: center;
+}
+.section4{
+    width: 100%;
+    text-align: center;
+}
+.section5{
+    width: 100%;
+    text-align: center;
+}
+.budget-buys{
+    width: 16vw;
+    margin: 0.6rem 1rem;
+}
+.lit-brands{
+    width: 13vw;
+    margin: 0.6rem 0.4rem;
+}
+.loving-brands{
+    width: 15vw;
+    margin: 0.6rem 0.5rem;
+}
+.brand-catagory{
+    width: 12vw;
+    margin: 0.6rem 0rem;
+}
+.section6{
+    width: 100%;
+    text-align: center;
+    background-color: #f5f5f6;
+}
+footer{
+    padding: 2.3rem;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
